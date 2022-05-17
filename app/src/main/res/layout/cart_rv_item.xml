@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+        <!--text view for our course name-->
+        <TextView
+            android:id="@+id/ccart1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Food Name"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/ccart2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Price"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/ccart3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Quantity"
+            android:textColor="@color/black" />
+
+
+        <!--text view for our course description-->
+        <TextView
+            android:id="@+id/ccart4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:text="Itemno"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/MLCeedit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Edit"
+            app:backgroundTint="#E64A19" />
+
+        <Button
+            android:id="@+id/MLCDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            app:backgroundTint="#FFA000" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

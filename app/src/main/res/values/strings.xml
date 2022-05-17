@@ -1,0 +1,311 @@
+<resources>
+    <string name="app_name">Meal Dash</string>
+    <string name="scaption_1">Meet the Experts</string>
+    <string name="scaption_2">Expert Register</string>
+    <string name="scaption_3">Edit Expert</string>
+    <string name="scaption_4">History</string>
+    <string name="scaption_5">Your Expert</string>
+    <string name="scaption_6">Profile</string>
+    <string name="scaption_7">Edit Profile</string>
+    <string name="slabel_1">Name</string>
+    <string name="slabel_2">Email</string>
+    <string name="slabel_3">Carrier</string>
+    <string name="slabel_4">Works at</string>
+    <string name="slabel_5">Upload a Photo of You</string>
+    <string name="slabel_6">Are you an expert? click +</string>
+    <string name="slabel_7">Then others can hire you</string>
+    <string name="slabel_8">Date</string>
+    <string name="slabel_9">Item</string>
+    <string name="slabel_10">Act</string>
+    <string name="slabel_11">App Data Usage</string>
+    <string name="slabel_12">Phone</string>
+    <string name="slabel_13">Username</string>
+    <string name="slabel_14">Type</string>
+    <string name="sedit_1">Enter Name</string>
+    <string name="sedit_2">Enter Email</string>
+    <string name="sedit_3">Enter Carrier</string>
+    <string name="sedit_4">Enter Works Place</string>
+    <string name="sedit_5">Total Visits</string>
+    <string name="sedit_6">Enter Phone</string>
+    <string name="sedit_7">Enter Username</string>
+
+    <string name="sbtn_1">Save</string>
+    <string name="sbtn_2">Hire</string>
+    <string name="sbtn_3">Save Changes</string>
+    <string name="sbtn_4">more</string>
+    <string name="sbtn_5">Calculate</string>
+    <string name="sbtn_6">Edit Profile</string>
+    <string name="sbtn_7">Delete Profile</string>
+    <string name="sbtn_8">Login</string>
+    <string name="sbtn_9">Sign Up</string>
+    <string name="stext_1">Chathurika Dias</string>
+    <string name="stext_2">chathurika.d@gmail.com</string>
+    <string name="stext_3">Dimuthu Kumarasinghe</string>
+    <string name="stext_4">dimuthu.d@gmail.com</string>
+    <string name="stext_5">pabilis </string>
+    <string name="stext_6">pabilis.s@gmail.com</string>
+    <string name="stext_8">Dimuthu Kumarasinghe</string>
+    <string name="stext_16">Chathurika Dias</string>
+    <string name="stext_17">chathurika.d@gmail.com</string>
+    <string name="stext_18">Senior Chef</string>
+    <string name="stext_19">Hilton Hotel</string>
+    <string name="stext_20">28.08.2021</string>
+    <string name="stext_21">Kebab</string>
+    <string name="stext_22">Buy</string>
+    <string name="stext_23">17.07.2021</string>
+    <string name="stext_24">Thanduri</string>
+    <string name="stext_25">View</string>
+    <string name="stext_26">18.03.2021</string>
+    <string name="stext_27">Pasta</string>
+    <string name="stext_28">Buy</string>
+    <string name="stext_29">12.05.2021</string>
+    <string name="stext_30">Garlic</string>
+    <string name="stext_31">View</string>
+    <string name="stext_32">Thamali Nirmala</string>
+    <string name="stext_33">tnirmalaadasooriya@gmail.com</string>
+    <string name="stext_34">0770113XXX</string>
+    <string name="stext_35">Sweet Thamali</string>
+    <string name="stext_36">Top User</string>
+
+    <string name="tcaption_1">Ratings Reviews </string>
+    <string name="tcaption_2">Write a Review </string>
+    <string name="tcaption_3">Edit Review </string>
+    <string name="tcaption_4">All Review </string>
+    <string name="tcaption_5">App Support </string>
+    <string name="tcaption_6">Summary Reviews </string>
+    <string name="tcaption_7">Customer Details </string>
+
+    <string name="tlable_1">Cancel </string>
+    <string name="tlable_2">Review Title </string>
+    <string name="tlable_3">What is your Rate  </string>
+    <string name="tlable_4">Name </string>
+    <string name="tlable_6">Select category </string>
+    <string name="tlable_7">Your Comment </string>
+    <string name="tlable_8">Upload Photos </string>
+    <string name="tlable_9">Click to add Photo </string>
+    <string name="tlable_10">Customer </string>
+    <string name="tlable_11">Username </string>
+    <string name="tlable_12">Date </string>
+    <string name="tlable_13">Status </string>
+    <string name="tlable_14">Calculation </string>
+    <string name="tlable_15">Tap to Rate : </string>
+    <string name="tlable_16">Total Reviews </string>
+    <string name="tlable_17">Write a Review </string>
+    <string name="tlable_18">App Support </string>
+    <string name="tlable_19">Others Review </string>
+    <string name="tlable_20">Muditha </string>
+    <string name="tlable_22">shiran Kumarasingha </string>
+
+    <string name="tbtn_1">Add Review</string>
+    <string name="tbtn_2">Save Changes</string>
+    <string name="tbtn_3">See more.... </string>
+    <string name="tbtn_4">Calculate</string>
+    <string name="tbtn_5">Take a Photo</string>
+
+    <string name="ttext_1">Rashmika</string>
+    <string name="ttext_2">12/05/2021</string>
+    <string name="ttext_3">Positive</string>
+    <string name="ttext_4">ashen</string>
+    <string name="ttext_5">20/02/2021</string>
+    <string name="ttext_6">Moderate</string>
+    <string name="ttext_7">rukshan</string>
+    <string name="ttext_8">23/01/2021</string>
+    <string name="ttext_9">Critical</string>
+    <string name="ttext_10">Amali</string>
+    <string name="ttext_11">13/07/2021</string>
+    <string name="ttext_12">Fare</string>
+    <string name="ttext_13">5 reviews</string>
+    <string name="ttext_15">4 day ago</string>
+    <string name="ttext_16">Excellent</string>
+    <string name="ttext_17">Edit</string>
+    <string name="ttext_18">4 reviews</string>
+    <string name="ttext_19">10 day ago</string>
+    <string name="ttext_20">Good Product</string>
+    <string name="ttext_21">3 reviews</string>
+    <string name="ttext_22">11 day ago</string>
+    <string name="ttext_23">I am not interested</string>
+    <string name="ttext_24">3.9</string>
+    <string name="ttext_25">See all</string>
+    <string name="ttext_26">Out of 5</string>
+    <string name="ttext_27">180 Ratings</string>
+    <string name="ttext_28">Customer Comments</string>
+    <string name="ttext_29">Initially, I wanna thank you all dear staff for producing this useful app and vital app actually, I was baffled and know nothing about cooking and making perfect foods, now I can discover my path for making foods and to become perfect at cooking.</string>
+    <string name="ttext_30">Interesting app. I am always looking for new things other than the same thing all the time. Should be good </string>
+    <string name="ttext_31">Woow Amazing App</string>
+
+
+    <string name="tedit_1">Enter Message </string>
+    <string name="tedit_2">Enter the Title </string>
+    <string name="tedit_3">Write your comment here </string>
+    <string name="tedit_4">Enter Your Name </string>
+
+
+    <string name="Mcaption1">Add Recipe</string>
+    <string name="Mcaption2"></string>
+    <string name="Mcaption3">Summary of recipe</string>
+    <string name="Mcaption4">Kitchen Stories</string>
+    <string name="Mcaption5">Edit recipe</string>
+
+    <string name="Mtopic1">Ingredients</string>
+    <string name="Mtopic2">Ingredients</string>
+
+    <string name="Mtext1"></string>
+    <string name="Mtext2">choose</string>
+    <string name="Mtext3"></string>
+    <string name="Mtext4"></string>
+    <string name="Mtext5"></string>
+    <string name="Mtext6"></string>
+    <string name="Mtext7"></string>
+    <string name="Mtext8"></string>
+    <string name="Mtext9"></string>
+    <string name="Mtext10"></string>
+    <string name="Mtext11"></string>
+    <string name="Mtext12"></string>
+    <string name="Mtext13"></string>
+    <string name="Mtext14"></string>
+    <string name="Mtext15"></string>
+    <string name="Mtext16"></string>
+    <string name="Mtext17">Add more......</string>
+    <string name="Mtext18">Total Recipes</string>
+    <string name="Mtext19">Collections</string>
+    <string name="Mtext20">more...</string>
+    <string name="Mtext21">Sign Up</string>
+    <string name="Mtext22">Already have an account?</string>
+    <string name="MSearchView1">What would you like to cook?</string>
+    <string name="Mtext23">Kebab</string>
+    <string name="Mtext24">Garlic Dish</string>
+    <string name="Mtext25">Past</string>
+    <string name="Mtext26">Thanduri Chiken</string>
+    <string name="Mtext27">Top Recipes</string>
+    <string name="Mtext28">Edit Details ?</string>
+    <string name="Mtext29">Added Success!</string>
+
+    <string name="mtble_1">Recipe name</string>
+    <string name="mtble_2">Date added</string>
+    <string name="mtble_3">Likes</string>
+    <string name="mtble_4">Kebab</string>
+    <string name="mtble_5">Thanduri</string>
+    <string name="mtble_6">Pasta</string>
+    <string name="mtble_7">Garlic</string>
+    <string name="mtble_8">01.01.2021</string>
+    <string name="mtble_9">02.02.2021</string>
+    <string name="mtble_10">03.03.2021</string>
+    <string name="mtble_11">04.04.2021</string>
+    <string name="mtble_12">1k</string>
+    <string name="mtble_13">2.4k</string>
+    <string name="mtble_14">4M</string>
+    <string name="mtble_15">10M</string>
+
+
+    <string name="MinputText1">Add..</string>
+    <string name="MinputText2">Add..</string>
+    <string name="MinputText3">Add..</string>
+    <string name="MinputText4">Add..</string>
+    <string name="MinputText5">Add..</string>
+    <string name="MinputText6">Add...</string>
+    <string name="MinputText7">Username</string>
+    <string name="MinputEmail1">Email</string>
+    <string name="MinputPassword1">Password</string>
+    <string name="MinputPassword2">Confirm Password</string>
+
+
+    <string name="MButton1">Add</string>
+    <string name="MButton2">Calculate</string>
+    <string name="MButton3">Register</string>
+    <string name="MButton4">Login</string>
+    <string name="MButton5">Save</string>
+    <string name="MButton6">more.....</string>
+    <string name="MButton7">OK</string>
+    <string name="MButton8">Cancel</string>
+
+    <string name="MButton9">Edit</string>
+    <string name="MButton10">View</string>
+
+
+    <string name="MtextView11">Pasta</string>
+
+
+    <string name="ks_search">search here</string>
+    <string name="ks_btn1">BUY</string>
+    <string name="button">BUY</string>
+    <string name="button2">BUY</string>
+    <string name="button3">BUY</string>
+    <string name="button4">BUY</string>
+    <string name="SearchBar">Search Here</string>
+    <string name="TopFood">Top  Foods</string>
+
+    <string name="c2_textView1">YOUR  FAVOURITE</string>
+    <string name="c2_textView2">Thandoori  chicken</string>
+    <string name="c2_textView3">Rs.2000.00</string>
+    <string name="c2_editTextTextMultiLine1">Tandoori chicken is a chicken dish prepsred by roosting chicken marinated in yougart</string>
+    <string name="c2_button1">ADD</string>
+    <string name="c2_button2">BUY</string>
+
+    <string name="c3_editTextTextPrice">Rs.2000.00</string>
+    <string name="c3_editTextNumber1">1</string>
+    <string name="c3_editTextTextPrice2">Rs.1500.00</string>
+    <string name="c3_editTextNumber2">1</string>
+    <string name="c3_textView1">Your  Cart</string>
+    <string name="c3_button1">BUY</string>
+
+    <string name="c4_textView1">Delivery</string>
+    <string name="c4_textView2">Delivery  details</string>
+    <string name="c4_editTextTextPersonName">Enter your Name</string>
+    <string name="c4_editTextTextPostalAddress">Enter your Address</string>
+    <string name="c4_editTextTextPersonName2">City name</string>
+    <string name="c4_editTextTextPersonName3">Distance</string>
+    <string name="c4_textView3">I will confirm that the data is correct</string>
+    <string name="c4_button1">CONFIRM</string>
+
+    <string name="c5_textView1">Pay Here</string>
+    <string name="c5_textView2">Credit card details</string>
+    <string name="c5_editTextTextPersonName1">Account Number</string>
+    <string name="c5_editTextTextPersonName2">Customer Name</string>
+    <string name="c5_button1">PAY</string>
+    <string name="c5t_textView4">Amount for Foods</string>
+    <string name="c5t_textView6">Delivery Amount</string>
+    <string name="c5t_textView8">Total( including delivery charge)</string>
+    <string name="c5t_textView3">Rs.2000.00</string>
+    <string name="c5t_textView2">No of Items</string>
+    <string name="c5t_textView">1</string>
+    <string name="c5_textView5">Rs.100</string>
+    <string name="c5t_textView7">Rs.2100</string>
+
+    <string name="c6_textView1">Successfully  Transfered</string>
+    <string name="c6_button1">OK</string>
+
+    <string name="c7_textView">Login</string>
+    <string name="c7_editTextTextPersonName1">Email</string>
+    <string name="c7_editTextTextPersonName2">Password</string>
+    <string name="c7_button1">Login</string>
+    <string name="c7_textView2">OR</string>
+    <string name="c7_button2">Sign in with Google</string>
+    <string name="c7_button3">Sign in with Facebook</string>
+    <string name="c7_textView3">Create an account ?</string>
+    <string name="c7_textView4">Sign Up</string>
+
+    <string name="textView60">Pay here</string>
+
+    <string name="create">Create</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="search">Enter Name</string>
+
+    <string name="foodName">Fried Rice</string>
+    <string name="TFprice1">Rs.950.00</string>
+    <string name="foodName2">ThandooriChicken</string>
+    <string name="TFprice">Rs.500.00</string>
+    <string name="btn_addTF">ADD</string>
+    <string name="TextPrice">Price</string>
+    <string name="TextPrice22">Rs.450.00</string>
+    <string name="button15TFV">View</string>
+    <string name="textView_cart">Your Cart</string>
+ 
+
+    <string name="delete">Delete</string>
+    <string name="list_all">List All</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+ 
+
+
+</resources>

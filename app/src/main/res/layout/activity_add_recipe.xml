@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRecipeActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="660dp"
+        android:background="#4D000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/signback"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:context=".AddRecipeActivity">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/bottomNavigationView2"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="35dp"
+                    android:layout_marginLeft="94sp"
+                    android:layout_height="43dp"
+                    android:layout_marginBottom="4dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.56"
+                    app:layout_constraintStart_toEndOf="@+id/mtextview"
+                    app:srcCompat="@drawable/dot" />
+
+                <TextView
+                    android:id="@+id/mtextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/Mcaption1"
+                    android:textColor="@color/Mcaption2color"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.224"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewgoprof"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageViewgoprof"
+                    android:layout_width="39dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/profile" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="406dp"
+                android:layout_height="83dp"
+                android:background="#E4E4E4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <ImageView
+                    android:id="@+id/homeMD"
+                    android:layout_width="72dp"
+                    android:layout_height="62dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/icons8_home_384" />
+
+                <ImageView
+                    android:id="@+id/addMD"
+                    android:layout_width="65dp"
+                    android:layout_height="61dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/cartMD"
+                    app:layout_constraintHorizontal_bias="0.454"
+                    app:layout_constraintStart_toEndOf="@+id/homeMD"
+                    app:srcCompat="@drawable/icons8_plus___384" />
+
+                <ImageView
+                    android:id="@+id/cartMD"
+                    android:layout_width="69dp"
+                    android:layout_height="61dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/communityMD"
+                    app:layout_constraintHorizontal_bias="0.629"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/icons8_shopping_cart_96" />
+
+                <ImageView
+                    android:id="@+id/communityMD"
+                    android:layout_width="69dp"
+                    android:padding="2dp"
+                    android:layout_height="58dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="12dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@drawable/communitymo" />
+
+                <ImageView
+                    android:id="@+id/expertMD"
+                    android:layout_width="66dp"
+                    android:layout_height="62dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/communityMD"
+                    app:layout_constraintHorizontal_bias="0.678"
+                    app:layout_constraintStart_toEndOf="@+id/cartMD"
+                    app:srcCompat="@drawable/chef" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/clipPhotoM"
+                android:layout_width="56dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="168dp"
+                android:text="@string/Mtext2"
+                android:textColor="#231A1A"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="176dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="68dp"
+                android:text="@string/Mtopic2"
+                android:textColor="#A6A6A6"
+                android:textSize="28sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.772"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="33dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="284dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_add_90" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="33dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="312dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_add_90" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="33dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="344dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_add_90" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="33dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="372dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_add_90" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="33dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="400dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_add_90" />
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="33dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="428dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_add_90" />
+
+            <EditText
+                android:id="@+id/ingr6"
+                android:layout_width="189dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="265dp"
+                android:layout_marginEnd="172dp"
+                android:layout_marginRight="172dp"
+                android:ems="10"
+                android:hint="@string/MinputText6"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="#CCFFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ingr7"
+                android:layout_width="189dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="298dp"
+                android:layout_marginEnd="172dp"
+                android:layout_marginRight="172dp"
+                android:ems="10"
+                android:hint="@string/MinputText6"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="#CCFFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ingr8"
+                android:layout_width="189dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="328dp"
+                android:layout_marginEnd="172dp"
+                android:layout_marginRight="172dp"
+                android:ems="10"
+                android:hint="@string/MinputText6"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="#CCFFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ingr9"
+                android:layout_width="189dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="356dp"
+                android:layout_marginEnd="172dp"
+                android:layout_marginRight="172dp"
+                android:ems="10"
+                android:hint="@string/MinputText6"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="#CCFFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ingr10"
+                android:layout_width="189dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="385dp"
+                android:layout_marginEnd="172dp"
+                android:layout_marginRight="172dp"
+                android:ems="10"
+                android:hint="@string/MinputText6"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="#CCFFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ingr11"
+                android:layout_width="189dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="416dp"
+                android:layout_marginEnd="172dp"
+                android:layout_marginRight="172dp"
+                android:ems="10"
+                android:hint="@string/MinputText6"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="#CCFFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ingr3"
+                android:layout_width="193dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="168dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:ems="10"
+                android:hint="@string/MinputText1"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="#CCFFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ingr1"
+                android:layout_width="189dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="104dp"
+                android:ems="10"
+                android:hint="@string/MinputText5"
+                android:inputType="textPersonName"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/white"
+                android:textColorHint="#CCFFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.927"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bottomNavigationView2" />
+
+            <EditText
+                android:id="@+id/ingr5"
+                android:layout_width="189dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="264dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="@string/MinputText4"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="#CCFFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ingr4"
+                android:layout_width="189dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="212dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="@string/MinputText3"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="#CCFFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ingr2"
+                android:layout_width="189dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="136dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="@string/MinputText2"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="#CCFFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+            <android.widget.Button
+                android:id="@+id/saveRecipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="12dp"
+                android:text="Add"
+                android:background="@drawable/login_btn"
+                app:backgroundTint="@color/MButton1c"
+                app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ImageView
+                android:id="@+id/takephotoM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.102"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bottomNavigationView2"
+                app:srcCompat="@drawable/icons8_image_gallery_96" />
+
+            <android.widget.Button
+                android:id="@+id/buttonListRecipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="List"
+                android:background="@drawable/login_btn"
+
+                app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+                app:layout_constraintEnd_toStartOf="@+id/saveRecipe"
+                app:layout_constraintHorizontal_bias="0.367"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/idFindlistValue"
+                android:layout_width="44dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/ingr1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView5"
+                app:layout_constraintTop_toBottomOf="@+id/bottomNavigationView2"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@android:drawable/ic_menu_search"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

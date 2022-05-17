@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_500">#EAE9E9</color>
+    <color name="green_500">#FF2ACA30</color>
+    <color name="light_blue">#159EDC</color>
+    <color name="red">#FF0000</color>
+    <color name="light_gray">#D5CFCE</color>
+    <color name="darker_gray">#aaaaaa</color>
+    <color name="Blue_Dress">#157DEC</color>
+
+
+    <color name="gray">#EAE9E9</color>
+
+    <color name="addHead">#FF5722</color>
+    <color name="Mtopic1color">#FF9800</color>
+    <color name="Mcaption2color">#FFFFFFFF</color>
+
+    <color name="MinputText1c">#009688</color>
+    <color name="MinputText2c">#009688</color>
+    <color name="MinputText3c">#009688</color>
+    <color name="MinputText4c">#009688</color>
+    <color name="MinputText5c">#009688</color>
+
+
+    <color name="Mtext1c">#FF000000</color>
+    <color name="Mtext2c">#004496</color>
+    <color name="Mtext3c">#96002A</color>
+
+
+    <color name="MButton1c">#1F1F22</color>
+    <color name="MButton2c">#1B1B30</color>
+    <color name="MButton3c">#FFFFFFFF</color>
+    <color name="MSearchView1c">#FFFFFFFF</color>
+
+
+    <color name="Mframe1">#EAE9E9</color>
+    <color name="Mframe2">#41B2C0</color>
+</resources>
