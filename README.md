@@ -3,10 +3,10 @@ Android Studio Mini Project
 
 Contributors🧑‍💻
 
-1.Sahan Kumarasiri💔
-2.Thamali Nirmala💔
-3.Mithila Dilshan💙
-4.Chandima Medawela💚
+1.Nethsarani H.A.K. (IT20297268)
+2.Hulugalla W.M.M.P. (IT20658922)
+3.Kashmila H.C.V. (IT20626624)
+4.Mendis T.S (IT2066066)
 
 1.	Introduction to the Project✍🏻
 
@@ -17,4 +17,3 @@ Actually, “Kitchen Stories” application is not a regular recipe application.
 Concerning about the payment and order management, we hope to implement a most accurate and reliable payment gateway for paying purposes. We plan to deliver orders to the doorsteps with an fair fee all around the country. So, users are not to worry about that. Actually, we provide a experts’ support related to the recipes and then user can discuss their problems with them. In addition to that, the user can hire them for their personal matters. Fortunately, we implement the component to register users who are talented with the skills and experiences. So, then they can also be experts and others can hire them. It is a great opportunity to earn extra money for the users given by the application which we are implemented. 
 Moreover, our app has community support. User can rate the recipes and put feedbacks about our order and the delivery services. So, others can view the ratings according to their desired recipes and they can decide that “Do we experience those recipes; buy or reject?” At the end, our team think that we can build a better application to the world.  
 
-![1](https://user-images.githubusercontent.com/86103554/129298042-96b0cbd2-401d-4509-8944-b397d24ba479.PNG)
